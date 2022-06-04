@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
+import { ComplaintDepartmentComponent } from './complaint-department/complaint-department.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
-    LoginComponent
+    LoginComponent,
+    ComplaintDepartmentComponent
   ],
   imports: [
     BrowserModule,
