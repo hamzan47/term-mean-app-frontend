@@ -7,13 +7,15 @@ import { SignupComponent } from './signup/signup.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { ComplaintDepartmentComponent } from './complaint-department/complaint-department.component';
+import { ComplaintDepartmentDetailsComponent } from './complaint-department-details/complaint-department-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
     LoginComponent,
-    ComplaintDepartmentComponent
+    ComplaintDepartmentComponent,
+    ComplaintDepartmentDetailsComponent
   ],
   imports: [
     BrowserModule,
