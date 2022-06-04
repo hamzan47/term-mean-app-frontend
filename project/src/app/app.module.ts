@@ -8,6 +8,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { ComplaintDepartmentComponent } from './complaint-department/complaint-department.component';
 import { ComplaintDepartmentDetailsComponent } from './complaint-department-details/complaint-department-details.component';
+import { HomeComponent } from './home/home.component';
+import { MyNavbarComponent } from './my-navbar/my-navbar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ComplaintDepartmentDetailsComponent } from './complaint-department-deta
     SignupComponent,
     LoginComponent,
     ComplaintDepartmentComponent,
-    ComplaintDepartmentDetailsComponent
+    ComplaintDepartmentDetailsComponent,
+    HomeComponent,
+    MyNavbarComponent
   ],
   imports: [
     BrowserModule,

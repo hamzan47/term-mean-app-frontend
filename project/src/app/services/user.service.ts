@@ -7,7 +7,7 @@ import {User} from "../models/user";
 })
 export class UserService {
 
-  private rootUrl: string = 'http://localhost:3000/api/user';
+  private rootUrl: string = 'https://data.mongodb-api.com/app/data-nsxgr/endpoint/data/v1';
   private config = new HttpHeaders().set('Content-Type', 'application/json')
     .set('Accept', 'application/json')
 
